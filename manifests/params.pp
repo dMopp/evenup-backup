@@ -3,7 +3,7 @@
 # Sets the default parameters for the module
 #
 class backup::params {
-  $ensure               = 'latest'
+  $ensure               = 'installed'
   $package_name         = 'backup'
   $package_provider     = 'gem'
   $install_dependencies = true
